@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_marginEnd="5sp">
+        </TextView>
+
+        <EditText
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="24sp"
+            android:hint="@string/individual_steps_hint_title">
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:hint="@string/individual_steps_hint_step">
+    </EditText>
+
+</LinearLayout>

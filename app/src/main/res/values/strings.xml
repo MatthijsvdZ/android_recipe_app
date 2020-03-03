@@ -1,0 +1,70 @@
+<resources>
+    <!--App top level string resources-->
+    <string name="app_name">Recepten</string>
+
+    <!--MainActivity string resources-->
+    <string name="main_activity_login">Klik om te starten</string>
+
+    <!--RecipeOverviewActivity string resources-->
+    <string name="recipe_overview_title">Alle recepten</string>
+    <string name="recipe_overview_go_to_schedule">Empty placeholder</string>
+
+    <!--IngredientAddActivity string resources -->
+    <string name="ingredient_add_ingredient_title_hint">Receptnaam</string>
+    <string name="ingredient_add_toast_item_deleted"> is verwijderd van de lijst</string>
+    <string name="ingredient_add_toast_item_delete_hint">Lang ingedrukt houden om ingredient te verwijderen</string>
+    <string name="ingredient_add_ingredient_et">Ingredient</string>
+    <string name="ingredient_add_amount_et">Hoeveelheid</string>
+    <string name="ingredient_add_add_ingredient_btn">Ingredient toevoegen</string>
+    <string name="ingredient_add_toast_amount_missing">Vul a.u.b. een hoeveelheid in</string>
+    <string name="ingredient_add_toast_amount_wrongtype">Vul a.u.b. alleen nummers in</string>
+    <string name="ingredient_add_toast_ingredient_missing">Vul a.u.b. een ingredient in</string>
+    <string-array name="ingredient_add_measure_spinner">
+        <item>g</item>Voeg hier de titel toe
+        <item>kg</item>
+        <item>ml</item>
+        <item>l</item>
+        <item>el</item>
+        <item>tl</item>
+        <item>snufje</item>
+        <item>snufjes</item>
+        <item>stuk</item>
+        <item>stuks</item>
+        <item>teentje</item>
+        <item>teentjes</item>
+    </string-array>
+    <string name="ingredient_add_save_btn">Naar bereidingsstappen</string>
+    <string name="ingredient_add_no_title">Vul een receptnaam in</string>
+    <string name="ingredient_add_no_ingredients">Ingredientenlijst kan niet leeg zijn</string>
+    <string name="ingredient_add_duplicate_ingredient">staat al in de lijst. Voor aanpassen, verwijder en voeg opnieuw toe (verwijderen kan d.m.v. langindrukken)</string>
+    <string name="ingredient_add_failed_upload_msg">Upload naar database gefaald</string>
+    <string name="ingredient_add_number_of_people_hint">Voor hoeveel personen is het recept?</string>
+    <string name="ingredient_add_no_people">Vul het aantal personen in</string>
+
+    <!-- CookingStepsActivity string resources -->
+    <string name="cooking_steps_add_step">Stap toevoegen</string>
+    <string name="cooking_steps_save_steps">Stappen opslaan</string>
+    <string name="cooking_steps_minimum">Voeg minimaal 1 stap toe</string>
+    <string name="cooking_steps_empty_title">Titels zijn verplicht, beschrijvingen niet</string>
+    <string name="cooking_steps_final_check">Zijn alle stappen helemaal compleet?</string>
+    <string name="cooking_steps_diaglog_pos_btn">Ja, sla op!</string>
+    <string name="cooking_steps_diaglog_neg_btn">Nee, nog ekkes kieke</string>
+    <string name="cooking_steps_diaglog_back_to_overview_msg">Upload gelukt!</string>
+    <string name="cooking_steps_diaglog_back_to_overview_btn">Terug naar receptenoverzicht</string>
+
+
+    <!-- individual_cooking_steps layout string resources -->
+    <string name="individual_steps_hint_title">Geef de stap een naam</string>
+    <string name="individual_steps_hint_step">Wat moet je doen in deze stap?</string>
+
+    <!-- Firebase Interaction class -->
+    <string name="firebase_interaction_upload_failed">Upload gefaald</string>
+    <string name="firebase_interaction_upload_successful">Upload geslaagd</string>
+    <string name="firebase_interaction_download_failed">Download gefaald</string>
+    <string name="firebase_interaction_download_successful">Download geslaagd</string>
+
+    <!-- RecipeActivity -->
+    <string name="recipe_ingredient_frag_title">Ingredienten</string>
+    <string name="recipe_step_frag_title">Bereidingsstappen</string>
+
+</resources>

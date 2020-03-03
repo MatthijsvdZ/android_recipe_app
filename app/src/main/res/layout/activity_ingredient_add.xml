@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/ingredient_add_recipe_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingredient_add_ingredient_title_hint"
+        android:layout_margin="5sp">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5sp">
+
+        <EditText
+            android:id="@+id/ingredient_add_number_of_people_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:hint="@string/ingredient_add_number_of_people_hint"
+            android:inputType="numberDecimal"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5sp">
+
+        <EditText
+            android:id="@+id/ingredient_add_amount_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:hint="@string/ingredient_add_amount_et"
+            android:inputType="numberDecimal">
+        </EditText>
+
+        <Spinner
+            android:id="@+id/ingredient_add_measure_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:entries="@array/ingredient_add_measure_spinner">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/ingredient_add_ingredient_et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:hint="@string/ingredient_add_ingredient_et"
+            android:inputType="text">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ingredient_add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient_add_add_ingredient_btn"
+        android:onClick="addIngredients"
+        android:layout_gravity="end">
+    </Button>
+
+    <ListView
+        android:id="@+id/ingredient_add_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_weight="1">
+    </ListView>
+
+    <Button
+        android:id="@+id/ingredient_add_to_steps_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient_add_save_btn"
+        android:onClick="saveAndToSteps"
+        android:layout_gravity="end">
+    </Button>
+
+
+
+
+</LinearLayout>

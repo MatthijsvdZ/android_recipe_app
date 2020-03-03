@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_overview_title"
+        android:textSize="50sp"
+        android:layout_margin="10sp">
+    </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+        <ListView
+            android:id="@+id/recipe_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp">
+        </ListView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/recipe_overview_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:onClick="toAddRecipesActivity"
+            android:layout_margin="16sp"
+            android:src="@drawable/ic_add_black_opaque_24dp"
+            android:backgroundTint="@color/colorPrimary">
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/recipe_overview_schedule_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/recipe_overview_go_to_schedule"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp">
+    </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "350982864110",
+    "firebase_url": "https://recepten-backend.firebaseio.com",
+    "project_id": "recepten-backend",
+    "storage_bucket": "recepten-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350982864110:android:e9d33a61a8eec05f4ec7ff",
+        "android_client_info": {
+          "package_name": "com.matthijs.recepten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350982864110-i6lksgr771cpdmrbmup0789bp3nqe5kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matthijs.recepten",
+            "certificate_hash": "d2bfdb0fae069f65667cf436c69fa792e18f76b4"
+          }
+        },
+        {
+          "client_id": "350982864110-t2vp97ktql36q54o69sdthorifchl1pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1WR_lKs-MTOPVm0-Rmsoa7wxkIHKQT6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350982864110-t2vp97ktql36q54o69sdthorifchl1pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
